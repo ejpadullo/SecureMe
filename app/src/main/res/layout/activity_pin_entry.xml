@@ -1,0 +1,76 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="#03A9F4">
+
+
+    <ImageView
+        android:id="@+id/SecureMe"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/security" />
+
+    <TextView
+        android:text="Enter your PIN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:autoSizeTextType="uniform"
+        android:autoSizeMinTextSize="18sp"
+        android:autoSizeMaxTextSize="30sp"
+        android:autoSizeStepGranularity="1sp"
+        android:maxLines="1"
+        android:ellipsize="none"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="25dp"
+        android:padding="8dp"/>
+
+    <EditText
+        android:id="@+id/pinEditText"
+        android:inputType="numberPassword"
+        android:hint="Enter PIN"
+        android:maxLength="6"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:drawablePadding="3dp"
+        android:background="@drawable/rounded_corner"
+        android:layout_marginBottom="12dp"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:drawableStart="@drawable/ic_pin"/>
+
+    <Button
+        android:id="@+id/btnVerifyPin"
+        android:text="Unlock"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#00358E"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:background="@drawable/rounded_corner"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/forgotPin"
+        android:text="Forgot PIN?"
+        android:textColor="@color/text_press_color"
+        android:textStyle="bold"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:padding="8dp"
+        android:textSize="16sp"/>
+</LinearLayout>

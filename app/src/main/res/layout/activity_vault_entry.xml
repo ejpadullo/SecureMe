@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#03A9F4">
+
+
+    <ImageView
+        android:id="@+id/SecureMe"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/security"
+        android:layout_marginBottom="16dp"/>
+    <!-- Title Field -->
+
+    <!-- Username/Email Field -->
+    <EditText
+        android:id="@+id/editTitle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_corner"
+        android:drawableStart="@drawable/ic_infinity"
+        android:drawablePadding="3dp"
+        android:hint="Website or App Name"
+        android:inputType="textCapWords"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"/>
+
+    <EditText
+        android:id="@+id/editUsername"
+        android:hint="Username or Email"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_corner"
+        android:paddingStart="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:drawablePadding="3dp"
+        android:drawableStart="@drawable/ic_user"
+        android:paddingEnd="10dp"/>
+
+    <!-- Password Field -->
+
+    <!-- Generate Password Button -->
+
+    <!-- Check Breach Button -->
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_corner"
+        android:drawableStart="@drawable/ic_lock"
+        android:drawableEnd="@drawable/ic_visibility"
+        android:drawablePadding="3dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingStart="10dp"
+        android:paddingEnd="12dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <Button
+        android:id="@+id/btnGeneratePassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/design_default_color_primary"
+        android:text="Generate Strong Password"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        android:background="@drawable/rounded_corner"
+        />
+
+    <!-- Notes Field -->
+    <Button
+        android:id="@+id/btnCheckBreach"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/design_default_color_secondary"
+        android:text="Check Breach"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        android:background="@drawable/rounded_corner"
+        />
+
+    <EditText
+        android:id="@+id/editNotes"
+        android:hint="Notes (optional)"
+        android:inputType="textCapSentences"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/rounded_corner"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"/>
+
+    <!-- Save Button -->
+
+    <!-- Delete Button -->
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/design_default_color_primary"
+        android:text="Save"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:background="@drawable/rounded_corner"
+        />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:text="Delete"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#990505"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        android:visibility="gone"
+        android:background="@drawable/rounded_corner"
+        />
+
+</LinearLayout>

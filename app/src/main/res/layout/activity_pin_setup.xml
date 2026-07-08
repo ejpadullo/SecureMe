@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#03A9F4">
+
+    <ImageView
+        android:id="@+id/SecureMe"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/security"/>
+
+    <TextView
+        android:text="Create your PIN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:autoSizeTextType="uniform"
+        android:autoSizeMinTextSize="18sp"
+        android:autoSizeMaxTextSize="30sp"
+        android:autoSizeStepGranularity="1sp"
+        android:maxLines="1"
+        android:ellipsize="none"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="25dp"
+        android:padding="8dp"/>
+
+    <EditText
+        android:id="@+id/newPin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:drawablePadding="3dp"
+        android:hint="Enter new PIN"
+        android:inputType="numberPassword"
+        android:maxLength="6"
+        android:background="@drawable/rounded_corner"
+        android:layout_marginBottom="12dp"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:drawableStart="@drawable/ic_pin"/>
+
+    <EditText
+        android:id="@+id/confirmPin"
+        android:hint="Confirm new PIN"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:drawablePadding="3dp"
+        android:inputType="numberPassword"
+        android:maxLength="6"
+        android:background="@drawable/rounded_corner"
+        android:layout_marginBottom="12dp"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:drawableStart="@drawable/ic_pin"/>
+
+    <Button
+        android:id="@+id/btnSetPin"
+        android:text="Set PIN"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#00358E"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:background="@drawable/rounded_corner"
+        />
+</LinearLayout>

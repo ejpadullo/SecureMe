@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme -->
+    <style name="Theme.SecureMe" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize only status bar -->
+        <item name="android:statusBarColor">@color/sky_blue</item>
+        <item name="android:navigationBarColor">@color/sky_blue</item>
+    </style>
+
+</resources>

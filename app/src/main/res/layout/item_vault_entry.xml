@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_marginBottom="12dp"
+    android:background="@drawable/rounded_card_bg"
+    android:elevation="4dp">
+
+    <TextView
+        android:id="@+id/vaultTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Website/App"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="8dp"
+        android:textAllCaps="true"/>
+
+    <TextView
+        android:id="@+id/vaultUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username: user@example.com"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/vaultPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password: ••••••••"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/vaultNotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notes: Some optional notes here."
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:visibility="gone"/>
+
+</LinearLayout>
