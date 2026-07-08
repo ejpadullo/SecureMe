@@ -58,6 +58,11 @@ SecureMe/
 ├── gradlew.bat
 └── README.md
 ```
+## Firebase Configuration
+
+This project requires a valid `google-services.json` file.
+
+Create a Firebase project and place your own `google-services.json` file in the `app/` directory before building the application.
 
 ## 🚀 Installation
 
